@@ -1,378 +1,590 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Rushdania Bushra | CSE undergraduate, computer vision and EEG researcher, Wiley journal co-author, first author of an accepted ICRPSET 2026 paper, and robotics and innovation participant." name="description"/>
-<title>Rushdania Bushra | Research, Projects &amp; Achievements</title>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
-<link href="style.css" rel="stylesheet"/>
-</head>
-<body>
-<header class="site-header">
-<nav class="navbar container">
-<a class="logo" href="#home">Rushdania<span>.</span></a>
-<button aria-expanded="false" aria-label="Open navigation menu" class="menu-button" id="menuButton" type="button">
-<span></span>
-<span></span>
-<span></span>
-</button>
-<ul class="nav-links" id="navLinks">
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#research">Research</a></li>
-<li><a href="#achievements">Achievements</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#certificates">Certificates</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
-</nav>
-</header>
-<main>
-<section class="hero section" id="home">
-<div class="container hero-grid">
-<div class="hero-content reveal">
-<p class="eyebrow">Portfolio</p>
-<h1>Rushdania Bushra</h1>
-<h2>CSE Undergraduate · Researcher · Software Engineering Enthusiast</h2>
-<p class="hero-description">
-            I am a 7th-semester Computer Science and Engineering undergraduate at Varendra University
-            (CGPA 3.75), interested in software engineering, computer vision, signal processing,
-            web development, and robotics. I enjoy research, collaborative problem-solving, and building
-            practical solutions to real-world problems.
-          </p>
-<div class="hero-actions">
-<a class="button button-primary" href="#research">View Research</a>
-<a class="button button-secondary" href="#achievements">View Achievements</a>
-</div>
-<div class="highlight-grid">
-<article class="highlight-card">
-<strong>3</strong>
-<span>Research Papers &amp; Conference Work</span>
-</article>
-<article class="highlight-card">
-<strong>Champion</strong>
-<span>Innovation Hub Competition</span>
-</article>
-<article class="highlight-card">
-<strong>2</strong>
-<span>Robo Soccer Events · 2024 &amp; 2026</span>
-</article>
-</div>
-</div>
-<div class="hero-visual reveal">
-<div class="profile-card">
-<img alt="Portrait of Rushdania Bushra" decoding="async" src="assets/images/profile.jpg"/>
-</div>
-</div>
-</div>
-</section>
-<section class="about section" id="about">
-<div class="container">
-<div class="section-heading reveal">
-<p class="eyebrow">About Me</p>
-<h2>Academic Profile</h2>
-</div>
-<div class="about-grid">
-<article class="about-card reveal">
-<h3>Who I Am</h3>
-<p>
-              I am a Computer Science and Engineering undergraduate at Varendra University, Rajshahi.
-              I am currently in my 7th semester, with a CGPA of 3.75, and expect to graduate in 2027.
-              I enjoy learning through research, competitions, and project-based problem solving.
-            </p>
-</article>
-<article class="about-card reveal">
-<h3>What I Focus On</h3>
-<p>
-              My current interests include software engineering, computer vision, crowd counting,
-              EEG signal processing, website development, machine learning, and robotics.
-            </p>
-</article>
-<article class="about-card reveal">
-<h3>What I Value</h3>
-<p>
-              I value curiosity, teamwork, practical implementation, and clear technical presentation.
-              I enjoy contributing to meaningful projects and continuously improving my skills.
-            </p>
-</article>
-</div>
-</div>
-</section>
-<section class="research section" id="research">
-<div class="container">
-<div class="section-heading reveal">
-<p class="eyebrow">Research</p>
-<h2>Research &amp; Publications</h2>
-<p>
-            Research spanning EEG connectivity, deep learning model robustness, and an ongoing
-            crowd-counting thesis focused on Bangladeshi scenes.
-          </p>
-</div>
-<div class="timeline">
-<article class="timeline-card reveal featured">
-<div class="timeline-badge">Published Journal Article · 2026</div>
-<h3>Multi-Metric EEG Connectivity and Graph Analysis Reveal Altered Resting-State Networks in Major Depressive Disorder</h3>
-<p class="meta"><strong>Journal:</strong> <em>Brain and Behavior</em> (Wiley), Volume 16, Issue 10, e71842</p>
-<p class="meta"><strong>Authors:</strong> Sushmit Jahan Rose, A H M Rahmatullah Imon, Rushdania Bushra, Nafis Ahmed, Moha Tasneem Habib Warid</p>
-<p class="meta"><strong>Author Position:</strong> 3rd Author</p>
-<p class="meta"><strong>Published:</strong> October 2026</p>
-<p>
-              This study examines resting-state EEG functional connectivity in Major Depressive Disorder
-              using multiple connectivity measures and graph-theoretical analysis.
-            </p>
-<div class="card-actions">
-<a class="button button-primary small" href="https://doi.org/10.1002/brb3.71842" rel="noopener noreferrer" target="_blank">Read Journal Paper</a>
-</div>
-</article>
-<article class="timeline-card reveal">
-<div class="timeline-badge">Accepted Conference Paper · 2026</div>
-<h3>Beyond Counting Error: Evaluating CSRNet Stability Under Rolling-Shutter Distortion</h3>
-<p class="meta"><strong>Conference:</strong> ICRPSET 2026</p>
-<p class="meta"><strong>Author Position:</strong> 1st Author</p>
-<p class="meta"><strong>Status:</strong> Accepted (not listed as published)</p>
-<p class="meta"><strong>Research Area:</strong> Computer Vision · Crowd Counting · Model Robustness</p>
-<p>
-              This research studies how rolling-shutter camera distortion changes the predictions
-              of a fixed CSRNet crowd-counting model, showing why prediction stability should be
-              considered alongside conventional counting error.
-            </p>
-</article>
-<article class="timeline-card reveal">
-<div class="timeline-badge muted">Presented Conference Paper · 2025</div>
-<h3>Functional Connectivity Alterations in Major Depressive Disorder: Insights from EEG-Based Beta Band Connectivity Patterns</h3>
-<p class="meta"><strong>Authors:</strong> Sushmit Jahan Rose, Rushdania Bushra, Nafis Ahmed, Afifa Rahman, Md Tasneem Habib Warid</p>
-<p class="meta"><strong>Author Position:</strong> 2nd Author</p>
-<p class="meta"><strong>Conference:</strong> Undergraduate Conference on Intelligent Computing and Systems (UCICS)</p>
-<p class="meta"><strong>Dates:</strong> 26–27 February 2025</p>
-<p class="meta"><strong>Status:</strong> Presented at the conference</p>
-<p>
-              This work explored EEG-based beta-band connectivity patterns to investigate
-              functional connectivity alterations associated with Major Depressive Disorder.
-            </p>
-<div class="card-actions">
-<a class="button button-secondary small" href="assets/docs/ucics-certificate.pdf" rel="noopener noreferrer" target="_blank">View UCICS Certificate</a>
-</div>
-</article>
-<article class="timeline-card reveal thesis-card">
-<div class="timeline-badge muted">Ongoing Undergraduate Thesis</div>
-<h3>CrowdBD-Count: Benchmarking Deep Learning Models for Crowd Counting in Dense Bangladeshi Scenes</h3>
-<p class="meta"><strong>Status:</strong> In progress</p>
-<p class="meta"><strong>Research Area:</strong> Computer Vision · Deep Learning · Crowd Counting</p>
-<p>
-              I am developing a Bangladesh-focused crowd-counting benchmark to compare CNN- and
-              transformer-based approaches using MAE and RMSE, with evaluation across sparse and dense
-              scenes, indoor and outdoor settings, and event categories.
-            </p>
-</article>
-</div>
-</div>
-</section>
-<section class="achievements section" id="achievements">
-<div class="container">
-<div class="section-heading reveal">
-<p class="eyebrow">Achievements &amp; Projects</p>
-<h2>Competitions, Innovation, and Robotics</h2>
-</div>
-<div class="showcase-grid">
-<article class="showcase-card reveal">
-<div class="showcase-media two-up">
-<img alt="Team Revolution celebrating Innovation Hub Championship" decoding="async" loading="lazy" src="assets/images/innovation-team.jpg"/>
-<img alt="Rushdania Bushra holding Innovation Hub award cheque" decoding="async" loading="lazy" src="assets/images/innovation-bushra.jpg"/>
-</div>
-<div class="showcase-content">
-<span class="project-type success">Champion</span>
-<h3>Varendra University Innovation Hub Competition</h3>
-<p class="meta"><strong>Project:</strong> Agventure</p>
-<p class="meta"><strong>Team:</strong> Revolution</p>
-<p class="meta"><strong>Date:</strong> 11 July 2025</p>
-<p class="meta"><strong>Achievement:</strong> VU_IC6 Champion</p>
-<p>
-                Agventure is a closed and controlled-area farming concept designed as an off-season farming
-                alternative for farming enthusiasts. The project aims to support productive cultivation in a more controlled environment.
-              </p>
-<p>
-<strong>My Contribution:</strong> Idea development, data analysis, programming,
-                website development, and technical presentation.
-              </p>
-<div class="project-tags">
-<span>Innovation</span>
-<span>Teamwork</span>
-<span>Data Analysis</span>
-<span>Website Development</span>
-<span>Technical Presentation</span>
-</div>
-<div class="card-actions">
-<a class="button button-primary small" href="assets/docs/innovation-cohort-certificate.pdf" rel="noopener noreferrer" target="_blank">
-                  View Certificate
-                </a>
-</div>
-</div>
-</article>
-<article class="showcase-card reveal">
-<div class="showcase-media gallery-grid">
-<img alt="Yellow-and-black VU Tech Carnival 2024 Robo Soccer bot from the front" decoding="async" loading="lazy" src="assets/images/robo-front.jpg"/>
-<img alt="VU Tech Carnival 2024 Robo Soccer bot side view" decoding="async" loading="lazy" src="assets/images/robo-side.jpg"/>
-<img alt="Phone-based controls for the 2024 Robo Soccer robot" decoding="async" loading="lazy" src="assets/images/robo-controller.jpg"/>
-<img alt="Top view of the yellow-and-black Robo Soccer bot from VU Tech Carnival 2024" decoding="async" loading="lazy" src="assets/images/robo-top.jpg"/></div>
-<div class="showcase-content">
-<span class="project-type">Robotics Competition</span>
-<h3>VU Tech Carnival 2024 - Robo Soccer</h3>
-<p class="meta"><strong>Team:</strong> Pixel Pugilists</p>
-<p class="meta"><strong>Organizer:</strong> Varendra University</p>
-<p class="meta"><strong>Robot:</strong> Fully functioning soccer bot</p>
-<p class="meta"><strong>Result:</strong> Reached the quarterfinals</p>
-<p>
-                I participated in the Robo Soccer competition as part of a collaborative robotics team.
-                Our team designed, assembled, tested, and operated a soccer bot for live competition.
-              </p>
-<p>
-<strong>My Contribution:</strong> Robot frame construction, mechanical assembly,
-                controller operation, performance testing, troubleshooting, and teamwork.
-              </p>
-<div class="project-tags">
-<span>Robotics</span>
-<span>Mechanical Assembly</span>
-<span>Testing</span>
-<span>Troubleshooting</span>
-<span>Teamwork</span>
-</div>
-<div class="card-actions">
-<a class="button button-primary small" href="assets/docs/robo-soccer-certificate.pdf" rel="noopener noreferrer" target="_blank">
-                  View Certificate
-                </a>
-</div>
-</div>
-</article>
-<article class="showcase-card reveal">
-<div class="showcase-media gallery-grid react-gallery">
-<img alt="Rushdania Bushra with fellow REACT 2026 participants wearing event badges" decoding="async" loading="lazy" src="assets/images/react-team-at-event.png"/>
-<img alt="Robotics vehicle and radio controller photographed for REACT 2026" decoding="async" loading="lazy" src="assets/images/react-robot-and-controller.png"/>
-<img alt="Close-up of a Robo Soccer robot photographed for REACT 2026" decoding="async" loading="lazy" src="assets/images/react-robot-closeup.png"/>
+:root {
+  --background: #09131c;
+  --background-soft: #122131;
+  --surface: #102231;
+  --surface-2: #162c40;
+  --card: rgba(255, 255, 255, 0.06);
+  --card-strong: rgba(255, 255, 255, 0.09);
+  --text: #eef4fb;
+  --text-muted: #b8c7d9;
+  --primary: #49a7ff;
+  --primary-dark: #2084e6;
+  --accent: #7ddf86;
+  --border: rgba(255, 255, 255, 0.1);
+  --shadow: 0 18px 45px rgba(0, 0, 0, 0.24);
+  --radius-large: 26px;
+  --radius-medium: 18px;
+  --radius-small: 12px;
+  --container: 1180px;
+  --transition: 0.28s ease;
+}
 
-</div>
-<div class="showcase-content">
-<span class="project-type">Robotics Competition · 2026</span>
-<h3>REACT 2026 — Robo Soccer</h3>
-<p class="meta"><strong>Team:</strong> Kernel</p>
-<p class="meta"><strong>Event:</strong> IEEE SEU SB at Southeast University</p>
-<p class="meta"><strong>Dates:</strong> 10–11 September 2026</p>
-<p class="meta"><strong>Result:</strong> Participant</p>
-<p>I participated in the Robo Soccer competition at REACT 2026 as part of Team Kernel, building on earlier experience in robotics and collaborative technical competitions.</p>
-<div class="project-tags"><span>Robotics</span><span>Team Kernel</span><span>Competition</span><span>Teamwork</span></div>
-<div class="card-actions"><a class="button button-primary small" href="assets/docs/react-2026-certificate.pdf" rel="noopener noreferrer" target="_blank">View REACT Certificate</a></div>
-</div>
-</article>
-</div>
-</div>
-</section>
-<section class="skills section" id="skills">
-<div class="container">
-<div class="section-heading reveal">
-<p class="eyebrow">Skills</p>
-<h2>Skills &amp; Current Learning</h2>
-</div>
-<div class="skills-layout">
-<article class="skills-card reveal">
-<h3>Technical Skills</h3>
-<div class="skills-list">
-<span>C</span><span>C++</span><span>Python</span><span>Java</span>
-<span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span>
-<span>SQL</span><span>MySQL</span><span>Git &amp; GitHub</span><span>Linux</span>
-<span>Arduino</span><span>Data Analysis</span><span>Website Development</span>
-<span>Problem Solving</span><span>Teamwork</span><span>Technical Presentation</span>
-</div>
-</article>
-<article class="skills-card reveal">
-<h3>Currently Learning</h3>
-<p>
-              I am developing my skills in Python, software development, machine learning,
-              and computer vision through research, technical practice, and collaborative projects.
-            </p>
-<div class="skills-list">
-<span>Machine Learning Fundamentals</span>
-<span>Computer Vision &amp; Crowd Counting</span>
-<span>Python for AI</span>
-<span>Software Development Practice</span>
-</div>
-</article>
-</div>
-</div>
-</section>
-<section class="certificates section" id="certificates">
-<div class="container">
-<div class="section-heading reveal">
-<p class="eyebrow">Credentials</p>
-<h2>Certificates</h2>
-</div>
-<div class="certificate-grid">
-<article class="certificate-card reveal">
-<div class="certificate-icon">UCICS</div>
-<h3>UCICS Certificate of Appreciation</h3>
-<p>
-              Certificate recognizing the conference paper contribution and presentation at UCICS.
-            </p>
-<a class="text-link" href="assets/docs/ucics-certificate.pdf" rel="noopener noreferrer" target="_blank">
-              Open Certificate →
-            </a>
-</article>
-<article class="certificate-card reveal">
-<div class="certificate-icon">UIH</div>
-<h3>Innovation Cohort Completion Certificate</h3>
-<p>
-              Certificate of completion under the University Innovation Hub Program, VU Innovation Cohort 6.
-            </p>
-<a class="text-link" href="assets/docs/innovation-cohort-certificate.pdf" rel="noopener noreferrer" target="_blank">
-              Open Certificate →
-            </a>
-</article>
-<article class="certificate-card reveal">
-<div class="certificate-icon">RSC</div>
-<h3>Robo Soccer Participation Certificate</h3>
-<p>
-              Certificate awarded for participating in the Robo Soccer competition at VU Tech Carnival '24.
-            </p>
-<a class="text-link" href="assets/docs/robo-soccer-certificate.pdf" rel="noopener noreferrer" target="_blank">
-              Open Certificate →
-            </a>
-</article>
-<article class="certificate-card reveal">
-<div class="certificate-icon">REACT</div>
-<h3>REACT 2026 Participation Certificate</h3>
-<p>Certificate of participation in REACT 2026, hosted by IEEE SEU SB at Southeast University.</p>
-<a class="text-link" href="assets/docs/react-2026-certificate.pdf" rel="noopener noreferrer" target="_blank">Open Certificate →</a>
-</article>
-</div>
-</div>
-</section>
-<section class="contact section" id="contact">
-<div class="container">
-<div class="contact-box reveal">
-<div>
-<p class="eyebrow">Get in Touch</p>
-<h2>Let’s Connect</h2>
-<p>
-              I am open to learning, collaboration, and opportunities in software engineering,
-              computer vision, and research. Reach out by email or explore my work and publications.
-            </p>
-</div>
-<div class="contact-actions">
-<a class="button button-primary" href="mailto:bushrush0692911@gmail.com">Email Me</a>
-<a class="button button-secondary" href="https://github.com/Rushbush2000" rel="noopener noreferrer" target="_blank">GitHub</a>
-<a class="button button-secondary" href="https://orcid.org/0009-0000-1161-7063" rel="noopener noreferrer" target="_blank">ORCID</a>
-<a class="text-link contact-phone" href="tel:+8801774114553">+880 1774-114553</a></div>
-</div>
-</div>
-</section>
-</main>
-<footer class="site-footer">
-<div class="container footer-content">
-<p>© <span id="currentYear"></span> Rushdania Bushra. All rights reserved.</p>
-<a class="text-link" href="#home">Back to top ↑</a>
-</div>
-</footer>
-<script src="main.js"></script>
-</body>
-</html>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  color: var(--text);
+  line-height: 1.7;
+  background:
+    radial-gradient(circle at top right, rgba(73, 167, 255, 0.18), transparent 24%),
+    radial-gradient(circle at bottom left, rgba(125, 223, 134, 0.12), transparent 18%),
+    linear-gradient(180deg, #07111a 0%, #0d1925 100%);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background: transparent;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: min(92%, var(--container));
+  margin-inline: auto;
+}
+
+.section {
+  padding: 92px 0;
+}
+
+.eyebrow {
+  margin-bottom: 8px;
+  color: #8dc7ff;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.section-heading {
+  max-width: 760px;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.section-heading h2 {
+  margin-bottom: 12px;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.2;
+}
+
+.section-heading p,
+.meta,
+.hero-description,
+.about-card p,
+.timeline-card p,
+.showcase-content p,
+.skills-card p,
+.certificate-card p,
+.contact-box p {
+  color: var(--text-muted);
+}
+
+.site-header {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(7, 17, 27, 0.82);
+  backdrop-filter: blur(14px);
+}
+
+.navbar {
+  display: flex;
+  min-height: 76px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.34rem;
+  font-weight: 700;
+}
+
+.logo span {
+  color: var(--primary);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-links a {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color var(--transition);
+}
+
+.nav-links a:hover,
+.nav-links a:focus-visible {
+  color: var(--text);
+}
+
+.menu-button {
+  display: none;
+  width: 46px;
+  height: 46px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.menu-button span {
+  width: 22px;
+  height: 2px;
+  border-radius: 999px;
+  background: var(--text);
+  transition: transform var(--transition), opacity var(--transition);
+}
+
+.menu-button.active span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.menu-button.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-button.active span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.button {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: transform var(--transition), background var(--transition), border-color var(--transition);
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.button-primary {
+  color: #fff;
+  background: var(--primary);
+}
+
+.button-primary:hover {
+  background: var(--primary-dark);
+}
+
+.button-secondary {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.button-secondary:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.button.small {
+  min-height: 40px;
+  padding: 8px 15px;
+  font-size: 0.92rem;
+}
+
+.text-link {
+  color: #9fd0ff;
+  font-weight: 600;
+}
+
+.text-link:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  padding-top: 150px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 42px;
+  align-items: center;
+}
+
+.hero h1 {
+  margin-bottom: 8px;
+  font-size: clamp(2.7rem, 6vw, 4.8rem);
+  line-height: 1.06;
+}
+
+.hero h2 {
+  margin-bottom: 16px;
+  color: #d8e9ff;
+  font-size: clamp(1rem, 2.5vw, 1.45rem);
+  font-weight: 500;
+}
+
+.hero-description {
+  max-width: 650px;
+  margin-bottom: 24px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 26px;
+}
+
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.highlight-card,
+.about-card,
+.timeline-card,
+.showcase-card,
+.skills-card,
+.certificate-card,
+.contact-box {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-medium);
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+
+.highlight-card {
+  padding: 18px;
+}
+
+.highlight-card strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #fff;
+  font-size: 1.15rem;
+}
+
+.highlight-card span {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+.profile-card {
+  max-width: 430px;
+  margin-inline: auto;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(73, 167, 255, 0.12), rgba(255, 255, 255, 0.04));
+  box-shadow: var(--shadow);
+}
+
+.profile-card img {
+  aspect-ratio: 10 / 11;
+  object-fit: cover;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.about-card,
+.skills-card,
+.certificate-card {
+  padding: 28px;
+}
+
+.about-card h3,
+.timeline-card h3,
+.showcase-content h3,
+.skills-card h3,
+.certificate-card h3 {
+  margin-bottom: 12px;
+  font-size: 1.22rem;
+}
+
+.timeline {
+  display: grid;
+  gap: 24px;
+}
+
+.timeline-card {
+  padding: 28px;
+}
+
+.timeline-card.featured {
+  background: linear-gradient(135deg, rgba(73, 167, 255, 0.12), rgba(255, 255, 255, 0.04));
+}
+
+.timeline-badge,
+.project-type {
+  display: inline-flex;
+  margin-bottom: 14px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.timeline-badge,
+.project-type {
+  color: #00131f;
+  background: var(--accent);
+}
+
+.timeline-badge.muted,
+.project-type:not(.success) {
+  color: #eaf3ff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.project-type.success {
+  color: #04160a;
+  background: var(--accent);
+}
+
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.showcase-grid {
+  display: grid;
+  gap: 30px;
+}
+
+.showcase-card {
+  overflow: hidden;
+}
+
+.showcase-media img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.two-up {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 0;
+}
+
+.two-up img:first-child {
+  min-height: 100%;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery-grid img {
+  aspect-ratio: 4 / 3;
+}
+
+.showcase-content {
+  padding: 28px;
+}
+
+.project-tags,
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.project-tags span,
+.skills-list span {
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: #deecfb;
+  font-size: 0.88rem;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.skills-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+.certificate-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.certificate-icon {
+  display: inline-flex;
+  width: 64px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  border-radius: 18px;
+  color: #07111a;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--primary), #8fd0ff);
+}
+
+.contact-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 34px;
+}
+
+.site-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(4, 10, 16, 0.72);
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 24px 0;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 980px) {
+  .hero-grid,
+  .about-grid,
+  .skills-layout,
+  .certificate-grid,
+  .contact-box {
+    grid-template-columns: 1fr;
+  }
+
+  .about-grid,
+  .certificate-grid {
+    display: grid;
+  }
+
+  .hero-grid,
+  .contact-box {
+    display: grid;
+  }
+
+  .two-up {
+    grid-template-columns: 1fr;
+  }
+
+  .highlight-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 860px) {
+  .menu-button {
+    display: inline-flex;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: calc(100% + 1px);
+    right: 4%;
+    left: 4%;
+    display: grid;
+    gap: 14px;
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background: rgba(7, 17, 27, 0.97);
+    box-shadow: var(--shadow);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-12px);
+    transition: opacity var(--transition), transform var(--transition), visibility var(--transition);
+  }
+
+  .nav-links.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 720px) {
+  .section {
+    padding: 78px 0;
+  }
+
+  .hero {
+    padding-top: 126px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+/* New photo galleries using the site's original colours and styles. */
+.react-gallery { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.react-gallery img { aspect-ratio: 4 / 3; object-fit: cover; }
+.react-gallery img:first-child { object-position: center 35%; }
+.contact-actions { flex-wrap: wrap; }
+.contact-phone { display: inline-flex; align-items: center; min-height: 44px; }
+.timeline-card .meta { margin-bottom: 7px; }
+@media(max-width:720px) {
+ .react-gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+ .react-gallery img { aspect-ratio: 1 / 1; }
+}
+@media(max-width:430px) { .react-gallery { grid-template-columns: 1fr; } }
+@media(prefers-reduced-motion:reduce) {
+ html { scroll-behavior: auto; }
+ .reveal { transition: none; transform: none; }
+}
